@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic);
+@font-face {
+	font-family: "True Gothic Cyr";
+	src: url(../fonts/TrueGothicCyr.woff2) format("woff2"), url(../fonts/TrueGothicCyr.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "s'AWesome";
+	src: url(../fonts/sAWesome.woff2) format("woff2"), url(../fonts/sAWesome.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+.header {
+}
+.telef {
+	margin: 0 220px 0 0;
+	color: white;
+	width: 355px;
+	height: 16px;
+	display: inline-block;
+	font-size: 12px;
+}
+.tel {
+	height: 44px;
+	background: #000000;
+	padding: 9px 406px 0 405px;
+}
+.telefon {
+	color: white;
+	font-size: 12px;
+}
+.regist {
+	color: white;
+}
+.registrac {
+	display: inline-block;
+	font-size: 12px;
+	width: 107px;
+	height: 16px;
+}
+.porten {
+	height: 80px;
+	background-color: #0f0f0f;
+	padding: 15px 0 0 0;
+}
+.port {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+	padding: 10px 0 0 0;
+}
+.block {
+	width: 50%;
+	display: inline-block;
+	color: #ffffff;
+	padding: 15px 0 0 150px;
+}
+.bloki {
+	display: inline-block;
+	color: #ffffff;
+	margin: 0 40px 0 0;
+}
+.blokiki {
+	display: inline-block;
+
+	margin: 0 25px 0 25px;
+}
+.blokiki-1 {
+	display: inline-block;
+
+	margin: 0 25px 0 25px;
+}
+
+.telo {
+	height: 810px;
+
+	background: url("../img/2c/санкт-петербург.png") 50% 60% no-repeat,
+		url("../img/2c/Rectangle\ 6.png") center no-repeat, url("../img/2c/PORTEN\ \(1\).png") center no-repeat,
+		url("../img/Rectangle\ 3.png") no-repeat fixed center;
+}
+.telo-2 {
+	height: 730px;
+}
+.colekcija {
+	padding: 400px 0 0 0;
+	text-align: center;
+	width: 40%;
+	height: 730px;
+	float: right;
+	background: url("../img/2c/Rectangle\ 8.png");
+}
+.czasy {
+	padding: 80px 0 0 0;
+	text-align: center;
+	width: 60%;
+	height: 730px;
+
+	background: url("../img/2c/62050\ 1.png") 13% 50% no-repeat, url("../img/2c/62050\ 1.png") 87% 50% no-repeat,
+		url("../img/2c/62050\ 1.png") center no-repeat, url("../img/2c/Rectangle\ 9.png") 13% 50% / 230px no-repeat,
+		url("../img/2c/Rectangle\ 9.png") 87% 50% / 230px no-repeat,
+		url("../img/2c/Rectangle\ 9.png") center / 230px no-repeat, url("../") black center no-repeat;
+}
+.papag {
+	text-transform: capitalize;
+	display: inline-block;
+	max-width: 400px;
+	font-size: 35px;
+	font-weight: 600;
+	color: blanchedalmond;
+}
+.colecj {
+	text-transform: uppercase;
+	display: inline-block;
+	max-width: 400px;
+	font-size: 35px;
+	font-weight: 600;
+	color: blanchedalmond;
+}
+.telo-3 {
+	height: 600px;
+}
+.pingak {
+	text-align: center;
+	display: inline-block;
+	height: 600px;
+	width: 60%;
+	background: url("") center;
+	background: black url("");
+}
+.czorny {
+	float: left;
+	height: 600px;
+	width: 40%;
+	background: url("../img/2c/pingak.png") center;
+}
+.title {
+	text-transform: uppercase;
+	color: blanchedalmond;
+	font-weight: 700;
+	font-size: 40px;
+	margin: 0px 0px 20px 0px;
+}
+.text {
+	text-transform: uppercase;
+	font-size: 25px;
+	color: blanchedalmond;
+	line-height: 130%;
+	margin: 0px 0px 30px 0px;
+}
+.link {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: wheat;
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+}
+.pingak-inner {
+	margin: 150px;
+	width: 600px;
+	height: 400px;
+}
+.footer {
+	background: url("../img/3c/Rectangle\ 15.png") center;
+	height: 400px;
+	padding: 30px 30px 60px 30px;
+}
+.niz {
+	text-align: right;
+}
+.niz-2 {
+	display: block;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: blanchedalmond;
+	line-height: 130%;
+	width: 400px;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.link-1 {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: wheat;
+	display: inline-block;
+	margin: -350px 200px 0 0;
+}
+.footer-2 {
+	background-color: black;
+	color: burlywood;
+	font-size: 25px;
+	height: 100px;
+	text-align: center;
+	padding: 40px 0 0 0;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.text-1 {
+}
